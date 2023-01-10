@@ -2,9 +2,11 @@
 	"name": "broadcast-api",
 	"version": "0.0.1",
 	"description": "",
-	"main": "index.js",
+	"main": "dist/src/index.js",
 	"scripts": {
+		"build": "tsc",
 		"dev": "vite sandbox",
+		"test": "vitest",
 		"format": "rome check src --apply-suggested && rome format --write src",
 		"lint": "rome ci src"
 	},
@@ -13,6 +15,8 @@
 	"license": "ISC",
 	"devDependencies": {
 		"rome": "^11.0.0",
-		"vite": "^4.0.4"
+		"typescript": "^4.9.4",
+		"vite": "^4.0.4",
+		"vitest": "^0.27.0"
 	}
 }

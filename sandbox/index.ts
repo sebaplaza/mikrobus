@@ -1,4 +1,4 @@
-import { EventBus } from "../src/event-bus";
+import { EventBus } from "../src";
 type Data = string;
 
 const busName = "MY_BUS";
@@ -11,6 +11,7 @@ receiver.onmessage = (event) => {
 	alert(event.data);
 };
 
+// @ts-ignore
 window.sendHello = () => {
 	broadcaster.postMessage("hello from broadcaster");
 };
