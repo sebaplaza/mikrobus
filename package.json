@@ -1,0 +1,15 @@
+{
+	"name": "broadcast-api",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite sandbox"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"vite": "^4.0.4"
+	}
+}
