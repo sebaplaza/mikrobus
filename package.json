@@ -1,5 +1,5 @@
 {
-	"name": "broadcast-api",
+	"name": "mikrobus",
 	"version": "0.0.1",
 	"description": "",
 	"main": "dist/src/index.js",
