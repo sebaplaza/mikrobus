@@ -4,12 +4,15 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "vite sandbox"
+		"dev": "vite sandbox",
+		"format": "rome check src --apply-suggested && rome format --write src",
+		"lint": "rome ci src"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"rome": "^11.0.0",
 		"vite": "^4.0.4"
 	}
 }
