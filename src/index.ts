@@ -1,1 +1,1 @@
-export * from "./event-bus";
+export * from "./mikro-bus";

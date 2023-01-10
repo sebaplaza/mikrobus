@@ -1,11 +1,11 @@
-import { EventBus } from "../src";
+import { MikroBus } from "../src";
 type Data = string;
 
 const busName = "MY_BUS";
 
 const options = { restrictForTab: false };
-const broadcaster = new EventBus<Data>(busName, options);
-const receiver = new EventBus<Data>(busName, options);
+const broadcaster = new MikroBus<Data>(busName, options);
+const receiver = new MikroBus<Data>(busName, options);
 
 receiver.onmessage = (event) => {
 	alert(event.data);
